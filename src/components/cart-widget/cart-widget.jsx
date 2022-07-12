@@ -4,7 +4,7 @@ import shoppingCart from "../../imgs/shopping-cart.svg";
 const CartWidget = () => {
   return (
     <div>
-      <img src={shoppingCart} />
+      <img src={shoppingCart} alt="carrito de compra" />
     </div>
   );
 };
